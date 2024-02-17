@@ -1,0 +1,40 @@
+{
+  "name": "depo24-chat-application",
+  "version": "1.0.0",
+  "description": "A chat application built with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "chat",
+    "application"
+  ],
+  "author": "Balaji",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.0.3",
+    "open": "^10.0.3",
+    "path": "^0.12.7",
+    "socketio": "^1.0.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/happisoul/depo24-chat-app.git"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/happisoul/depo24-chat-app/issues"
+  },
+  "homepage": "https://github.com/happisoul/depo24-chat-app#readme"
+}

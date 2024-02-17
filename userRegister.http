@@ -1,0 +1,16 @@
+#####
+
+POST http://localhost:5002/register
+Content-Type: application/json
+
+{
+    "username": "user3",
+    "password": "user3"
+}
+
+#####
+
+GET http://localhost:5002/users
+Content-Type: application/json
+
+#####
